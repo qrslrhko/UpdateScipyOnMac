@@ -1,4 +1,4 @@
-## How to update new version of scipy on mac 
+### How to update new version of scipy on mac 
 
 According to this problem on Stackfow http://stackoverflow.com/questions/26390895/why-isnt-pip-updating-my-numpy-and-scipy ,the below method is how to fix it.
 
@@ -18,7 +18,7 @@ downloand the scipy-0.17.0rc1.tar.gz.
 
 
 
-### Markdown
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
