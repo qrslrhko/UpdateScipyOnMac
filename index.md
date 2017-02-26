@@ -1,8 +1,22 @@
-## Welcome to qrslrhko's GitHub Pages
+## How to update scipy on mac 
 
-You can use the [editor on GitHub](https://github.com/qrslrhko/chiaoyswebsite/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+According to this problem on Stackfow http://stackoverflow.com/questions/26390895/why-isnt-pip-updating-my-numpy-and-scipy ,the below method is how to fix it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Let's chenck my current version of Scipy on Mac terminal:
+
+```
+>>> import scipy
+>>> scipy.__version__
+'0.16.1'
+>>> scipy.__path__
+['/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy']
+>>> 
+
+```
+For example, I want to update my current version to [scipy 0.17.0](https://github.com/scipy/scipy/releases?after=v0.17.0rc2).
+downloand the scipy-0.17.0rc1.tar.gz. 
+
+
 
 ### Markdown
 
@@ -26,12 +40,9 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qrslrhko/chiaoyswebsite/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
