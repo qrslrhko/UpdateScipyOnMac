@@ -1,4 +1,4 @@
-### How to update new version of scipy on mac 
+### How to update a new version of scipy on mac 
 
 Refer to this problem on Stackfow http://stackoverflow.com/questions/26390895/why-isnt-pip-updating-my-numpy-and-scipy ,the below method shows how to fix it.
 
