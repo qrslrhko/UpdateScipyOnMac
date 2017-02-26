@@ -4,7 +4,7 @@ Refer to this problem on Stackfow http://stackoverflow.com/questions/26390895/wh
 
 my old version is 0.16 and I want to update it to 0.17 
 
-# This is my old version of scipy:
+- This is my old version of scipy:
 ```
 >>> import scipy
 >>> scipy.__version__
