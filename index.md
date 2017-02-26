@@ -29,7 +29,7 @@ After updating the version via pip, the new version will be stored in this direc
 
 
 
-## Here is the method to update the version of scipy which you want:
+## Here is the method to update or change the version of scipy :
 
 - Step1: Delete the directory of scipy both in `/Library/Python/2.7/site-packages` and  `/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy`
 
