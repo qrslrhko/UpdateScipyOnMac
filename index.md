@@ -13,7 +13,7 @@ Let's chenck my current version of Scipy on Mac terminal:
 >>> 
 
 ```
-For example, I want to update my current version to [scipy 0.17.0](https://github.com/scipy/scipy/releases?after=v0.17.0rc2).
+For example, If I want to update my current version to [scipy 0.17.0](https://github.com/scipy/scipy/releases?after=v0.17.0rc2),I 
 downloand the scipy-0.17.0rc1.tar.gz. 
 
 
