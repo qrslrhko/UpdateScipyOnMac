@@ -31,7 +31,7 @@ After updating the version via pip, the new version will be stored in this direc
 
 ## Here is the method to update the version of scipy which you want:
 
-1. Step1: Delete the directory of scipy both in `/Library/Python/2.7/site-packages` and  `/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy`
+- Step1: Delete the directory of scipy both in `/Library/Python/2.7/site-packages` and  `/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy`
 
 ```
 $ cd /Library/Python/2.7/site-packages
@@ -40,7 +40,7 @@ $ sudo rm -rf scipy
 $ cd /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/
 $ sudo rm -rf scipy
 ```
-2. Step2: Unzip the scipy-0.17.0rc1.tar.gz file and install it
+- Step2: Unzip the scipy-0.17.0rc1.tar.gz file and install it
 ```
 $ tar -xvzf scipy-0.17.0rc1.tar.gz
 $ cd scipy-0.17.0rc1
