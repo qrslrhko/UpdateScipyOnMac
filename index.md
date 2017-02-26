@@ -2,7 +2,7 @@
 
 Refer to this problem on Stackfow http://stackoverflow.com/questions/26390895/why-isnt-pip-updating-my-numpy-and-scipy ,the below method shows how to fix it.
 
-my old version is 0.16 and I want to update it to 0.17 
+If my old version is 0.16 and I want to update it to 0.17.....
 
 This is my old version of scipy:
 ```
@@ -14,9 +14,6 @@ This is my old version of scipy:
 >>> 
 
 ```
-
-For example, If I want to update my current version to [scipy 0.17.0](https://github.com/scipy/scipy/releases?after=v0.17.0rc2),I 
-downloand the scipy-0.17.0rc1.tar.gz. 
 
 The scipy is like in this directory :
  `/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy`
@@ -31,7 +28,13 @@ After updating the version via pip, the new version will be stored in this direc
 
 ## Here is the method to update or change the version of scipy :
 
-- Step1: Delete the directory of scipy both in `/Library/Python/2.7/site-packages` and  `/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy`
+- Step1: Download the version of scipy whcih you want:
+
+For example, If I want to update my current version to [scipy 0.17.0](https://github.com/scipy/scipy/releases?after=v0.17.0rc2),I 
+downloand the scipy-0.17.0rc1.tar.gz. 
+
+
+- Step2: Delete the directory of scipy both in `/Library/Python/2.7/site-packages` and  `/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy`
 
 ```
 $ cd /Library/Python/2.7/site-packages
@@ -40,7 +43,7 @@ $ sudo rm -rf scipy
 $ cd /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/
 $ sudo rm -rf scipy
 ```
-- Step2: Unzip the scipy-0.17.0rc1.tar.gz file and install it
+- Step3: Unzip the scipy-0.17.0rc1.tar.gz file and install it
 ```
 $ tar -xvzf scipy-0.17.0rc1.tar.gz
 $ cd scipy-0.17.0rc1
